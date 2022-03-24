@@ -3,8 +3,6 @@
 
 # quit immediately if there is an error
 set -e
-# ...
-# set -x
 
 # Xrdp
 function install_xrdp() {
