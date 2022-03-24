@@ -12,8 +12,13 @@ function install_xrdp() {
 } 
 
 # install desktop environment lxde. 
+# function install_desktop_env() {
+#	DEBIAN_FRONTEND=noninteractive apt-get install -y lxde
+#}
+
+# install desktop environment gnome. 
 function install_desktop_env() {
-	DEBIAN_FRONTEND=noninteractive apt-get install -y lxde
+	DEBIAN_FRONTEND=noninteractive apt-get install -y gnome-shell ubuntu-gnome-desktop
 }
 
 # Xrdp PulseAudio
